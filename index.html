@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holy Grail Mockup</title>
+    
+    <script
+      src="https://kit.fontawesome.com/60d4414dd7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/index-c19ff5da.css">
+  </head>
+  <body>
+    <main class="main">
+      <div class="hero">
+        <div class="hero__overlay">
+          <div class="hero__overlay-image">
+            <img
+              src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+              alt="Father of Thor"
+            />
+          </div>
+          <h1>Odin</h1>
+        </div>
+
+        <div class="credits">
+          <p>
+            Photo by
+            <a href="https://unsplash.com/photos/25xggax4bSA">Hallie West</a> on
+            <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a>
+          </p>
+        </div>
+      </div>
+
+      <form action="" class="form">
+        <div class="form__heading">
+          <h2>
+            This is not a real online service! You know you need something like
+            ths in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </h2>
+
+          <p>You <i>know</i> you want to.</p>
+        </div>
+
+        <div class="form__content">
+          <h2>Let's do this!</h2>
+
+          <div class="form__rows">
+            <div class="form__row">
+              <div class="form__item">
+                <label for="firstName">First Name</label>
+                <input
+                  required
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  aria-describedby="missingFirstName"
+                />
+                <span class="error" id="missingFirstName"
+                  ><sup>*</sup>First Name is required</span
+                >
+              </div>
+
+              <div class="form__item">
+                <label for="lastName">Last Name</label>
+                <input required type="text" name="lastName" id="lastName" />
+                <span class="error" id="missingLastName"
+                  ><sup>*</sup>Last Name is required</span
+                >
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="form__item">
+                <label for="email">Email</label>
+                <input
+                  required
+                  type="email"
+                  name="email"
+                  id="email"
+                  aria-labelledby=""
+                />
+              </div>
+
+              <div class="form__item">
+                <label for="password">Password</label>
+                <input required type="password" name="password" id="password" />
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="form__item">
+                <label for="lastName">Phone Number</label>
+                <input required type="text" name="lastName" id="lastName" />
+              </div>
+
+              <div class="form__item">
+                <label for="lastName">Confirm password</label>
+                <input required type="text" name="lastName" id="lastName" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="form__btn btn" type="submit" class="btn">
+          Create Account
+        </button>
+        <p>Already have an account? <span class="green bold">Log in</span></p>
+      </form>
+    </main>
+  </body>
+</html>
